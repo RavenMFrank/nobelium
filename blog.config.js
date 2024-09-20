@@ -38,13 +38,13 @@ const BLOG = {
   },
   comment: {
     // support provider: gitalk, utterances, cusdis
-    provider: '', // leave it empty if you don't need any comment plugin
+    provider: 'gitalk', // leave it empty if you don't need any comment plugin
     gitalkConfig: {
-      repo: '', // The repository of store comments
-      owner: '',
-      admin: [],
-      clientID: '',
-      clientSecret: '',
+      repo: 'https://github.com/yiran-frank-mao/blog_gitalk', // The repository of store comments
+      owner: 'yiran-frank-mao',
+      admin: [yiran-frank-mao],
+      clientID: 'Ov23liT3UOSDqtOS3icB',
+      clientSecret: 'fa715c865fb4a176565dc008fe29cf65e4e44b96',
       distractionFreeMode: false
     },
     utterancesConfig: {
